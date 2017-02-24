@@ -1,0 +1,38 @@
+1.HDFS:
+
+*Hadoop Distributed File System is used for the purpose of storage in hadoop.
+*HDFS is built using Java.
+*It stores the files across collection of servers in a cluster.
+*It consists of single namenode called as master which manages namespace of the filesystem.
+*HDFS is designed to run on the commodity hardware.
+*There are number of data nodes which manages storage of the nodes they run.
+*HDFS is a fault-tolerant,scalable, distributed storage system.
+*Hadoop supports the shell-like commands in order to interact with HDFS directly.
+*HDFS detects and compensates the hardware issues.
+
+
+2.Hadoop cluster:
+
+*Hadoop cluster boosts the speed of applications which includes data analysis.
+*Computer cluster used for Hadoop is called Hadoop Cluster. 
+*Hadoop clusters are composed of three types of nodes: 
+-master nodes
+-client nodes.
+-worker nodes 
+*Hadoop clusters are scalable and fault tolerant.
+*Hadoop cluster will run on low cost commodity hardwares.
+*Clusters of three or more machines typically use a single NameNode and ResourceManager
+ with all other nodes as slave nodes. 
+*It is designed for the purpose of storing and analyzing huge amount of unstructured data.
+
+
+3.HDFS Blocks:
+
+*Hadoop distributed file system uses blocks to store the data.
+*Hard Disk consists of concentric circles which form tracks.
+*In order to reduce the cost of seek time HDFS blocks are larger in size.
+*The default size of hdfs block is 64MB.
+*Blocks are easy to replicate and thereby providing fault tolerance and high availability.
+*Blocks are linked to the files through INode. Each block is given a timestamp 
+that is used to determine whether replica is current. 
+*The replication factor of blocks is 3 and it is default.
